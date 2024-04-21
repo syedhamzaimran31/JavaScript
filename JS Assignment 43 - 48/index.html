@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Js Assignment 43-48</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>1-Show alert on clicking a link</h1>
+    <a target="_blank" rel="noopener noreferrer" onclick="linkClick()"
+      >This is a link<br /><br
+    /></a>
+
+    <h1>2-Show alert on clicking on image</h1>
+    <div id="images">
+      <img
+        src="./images/iphone.jpg"
+        alt=""
+        srcset=""
+        width="200"
+        height="226"
+        onclick="mobilePurchase()"
+      /><img
+        src="./images/Oppo.jpeg"
+        alt=""
+        srcset=""
+        width="180"
+        height="226"
+        onclick="mobilePurchase()"
+      /><img
+        src="./images/vivo.jpeg"
+        alt=""
+        srcset=""
+        width="175"
+        height="220"
+        onclick="mobilePurchase()"
+      /><img
+        src="./images/xiaomi.jpeg"
+        alt=""
+        srcset=""
+        width="200"
+        height="220"
+        onclick="mobilePurchase()"
+      />
+    </div>
+    <div id="captions">
+      <span>Iphone</span><span>Oppo</span><span>Vivo</span><span>Xiaomi</span>
+    </div>
+    <h1>3-Deleting rows from table on click</h1>
+    <table class="table">
+      <tr>
+        <td>Index</td>
+        <td>Name</td>
+        <td>Class</td>
+        <td></td>
+      </tr>
+      <tr id="row1">
+        <td>0</td>
+        <td>Hamza</td>
+        <td>10</td>
+        <td><button onclick="removeRow1()">Delete</button></td>
+      </tr>
+      <tr id="row2">
+        <td>1</td>
+        <td>Hassan</td>
+        <td>9</td>
+        <td><button onclick="removeRow2()">Delete</button></td>
+      </tr>
+      <tr id="row3">
+        <td>2</td>
+        <td>Muzzammil</td>
+        <td>11</td>
+        <td><button onclick="removeRow3()">Delete</button></td>
+      </tr>
+      <tr id="row4">
+        <td>3</td>
+        <td>Muddassir</td>
+        <td>12</td>
+        <td><button onclick="removeRow4()">Delete</button></td>
+      </tr>
+    </table>
+
+    <h1>4-Change screen on Mouse Over</h1>
+    <img
+      src="./images/Oppo.jpeg"
+      alt=""
+      srcset=""
+      onmouseover="src='./images/vivo.jpeg'"
+      onmouseout="src='./images/Oppo.jpeg'"
+    />
+    <h1>5-Counter</h1>
+    <div id="counter">
+      <button id="adding" onclick="counterAdd()" >add</button>
+      <button id="result" style="width: 70px; height: 40px; ">0</button>
+
+      <button id="deleting" onclick="counterDelete()">delete</button>
+    </div>
+
+    <script src="./onClick.js"></script>
+  </body>
+</html>

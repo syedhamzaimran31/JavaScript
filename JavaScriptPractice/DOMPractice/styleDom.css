@@ -1,0 +1,26 @@
+/* h1{
+    font-size: 100px;
+    color: beige;
+    background-color: black;
+    border-radius: 10%;
+    text-align: center;
+} */
+.bulb {
+  width: 250px;
+  height: 250px;
+  position: relative;
+  left: 40%;
+  background-color: transparent;
+  border-radius:50% ;
+  border: 2px solid black;
+}
+button{
+    padding: 10px 30px;
+    font-size: 20px;
+    position: relative;
+    left: 46.5%;
+    margin-top: 30px;
+}
+h1{
+    color:"blue";
+}

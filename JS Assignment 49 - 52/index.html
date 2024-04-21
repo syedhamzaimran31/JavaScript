@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JS Assignment 49 - 52</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1 style="text-align: center">Question : 1</h1>
+    <h1 id="display"></h1>
+    <div id="card">
+      <div id="card-content">
+        <div id="card-title">
+          <h2>LOGIN</h2>
+          <div class="underline-title"></div>
+        </div>
+        <form method="get" class="form">
+          <label for="user-email" style="padding-top: 13px">
+            &nbsp;Email
+          </label>
+          <input
+            id="userEmail"
+            class="form-content"
+            type="email"
+            name="email"
+            autocomplete="on"
+            required
+          />
+          <div class="form-border"></div>
+          <label for="userPassword" style="padding-top: 22px"
+            >&nbsp;Password
+          </label>
+          <input
+            id="userPassword"
+            class="form-content"
+            type="password"
+            name="password"
+            required
+          />
+          <div class="form-border"></div>
+          <a href="#">
+            <legend id="forgot-pass">Forgot password?</legend>
+          </a>
+          <input id="submitBtn" type="submit" name="submit" value="LOGIN" />
+          <a href="#" id="signup">Don't have account yet?</a>
+        </form>
+      </div>
+    </div>
+    <div id="QuestionTwo">
+      <h1>Question : 2</h1>
+      <p>
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni deleniti
+        exercitationem eum,<span id="dots">...</span
+        ><span id="more">
+          quod voluptatum quia id sequi minima enim ex quas officiis expedita,
+          quisquam temporibus et facilis voluptate vitae explicabo! Lorem ipsum
+          dolor sit amet consectetur adipisicing elit. Modi perferendis deserunt
+          eos quam magnam quis dolorem, qui temporibus quaerat repellat eaque
+          aut incidunt at, perspiciatis, beatae voluptatum asperiores tempore
+          earum?Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Impedit, amet. Earum, ipsa eligendi harum nulla sint dignissimos
+          tempora dolor eius necessitatibus. Vitae ratione magni, laborum quos
+          eligendi voluptate! Quia, perferendis.</span
+        >
+      </p>
+      <button id="readmoreBtn">Read more</button>
+    </div>
+    <div id="QuestionThree">
+      <h1>Question : 3</h1>
+      <table class="table">
+        <tr>
+          <td>Index</td>
+          <td>Name</td>
+          <td>Class</td>
+          <td></td>
+        </tr>
+        <tr id="row1">
+          <td>0</td>
+          <td class="personName1">Hamza</td>
+          <td class="personClass1">10</td>
+          <td ><button class="editBtn1">Edit</button></td>
+          <td><button onclick="removeRow1()">Delete</button></td>
+        </tr>
+        <tr id="row2">
+          <td>1</td>
+          <td ><p class="personName2">Hassan</p></td>
+          <td class="personClass2">9</td>
+          <td ><button class="editBtn2">Edit</button></td>
+          <td><button onclick="removeRow2()">Delete</button></td>
+        </tr>
+        <tr id="row3">
+          <td>2</td>
+          <td class="personName3">Muzzammil</td>
+          <td class="personClass3">11</td>
+          <td><button class="editBtn3">Edit</button></td>
+          <td><button onclick="removeRow3()">Delete</button></td>
+        </tr>
+        <tr id="row4">
+          <td>3</td>
+          <td class="personName4">Muddassir</td>
+          <td class="personClass4">12</td>
+          <td><button class="editBtn4">Edit</button></td>
+          <td><button onclick="removeRow4()">Delete</button></td>
+        </tr>
+      </table>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

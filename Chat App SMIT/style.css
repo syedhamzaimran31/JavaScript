@@ -1,0 +1,15 @@
+* {
+}
+body {
+  width: 100vw;
+  height: 100vh;
+  background: #ffff;
+}
+.messageContainer {
+  overflow: scroll;
+  height: 70vh;
+  padding: 10px;
+}
+#alreadySignUp{
+  text-align: center;
+}

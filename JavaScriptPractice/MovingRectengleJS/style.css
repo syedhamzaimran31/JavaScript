@@ -1,0 +1,9 @@
+.Rectengle{
+    position: absolute;
+    left: 47%;
+    top: 35%;
+    width: 100px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid black;
+}
