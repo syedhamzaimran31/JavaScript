@@ -24,13 +24,21 @@ class Civic extends Car {
 }
 
 const myVariable_3 = new Civic("Honda", 2024, "Diesel", "Yellow", "BOB");
-console.log(myVariable_3);
+// console.log(myVariable_3);
 
 
 
 const greetings = () => {
   console.log("Hello World");
 }
-const print=setInterval(greetings,1000)
-// const print_2=setTimeout(greetings,1000)
+// const print = setInterval(greetings, 1000)
+const print_2=setTimeout(greetings,1000)
 
+class MyClass {
+  constructor(name, age) {
+    this.name = name;
+    this.age = age;
+  }
+}
+const myObj = new MyClass("Hamza", 24)
+console.log(myObj)
